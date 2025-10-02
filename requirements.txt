@@ -11,3 +11,5 @@ MarkupSafe==3.0.3
 SQLAlchemy==2.0.43
 typing_extensions==4.15.0
 Werkzeug==2.3.0
+pymysql==1.1.0
+cryptography==41.0.7

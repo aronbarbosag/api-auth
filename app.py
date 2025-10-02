@@ -11,7 +11,7 @@ from flask_login import (
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "my_key"
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://admin:admin123@localhost:3306/flask-crud"
 
 login_manager = LoginManager()
 db.init_app(app)
